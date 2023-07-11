@@ -209,7 +209,50 @@ border: 0;
     
 background: #FFF;
 }
-  
+ .event{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+   
+ } 
+ .event-container{
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+   background-color: rgb(255, 182, 193);
+ }
+ .event1{
+    width: 300px;
+    height: 350px;
+    margin-right: 24px;
+    padding-top: 70px ;
+    padding-left: 50px;
+ }
+ .event-title{
+    margin-top: 100px;
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+ }
+ .event-color{
+    color: pink;
+ }
+ .event-des{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 70px;
+ }
+ .event-img{
+    border-radius: 50%;
+    
+ }
+ .img-des{
+    color: 	rgb(255,20,147);
+    font-weight: 700;
+ }
 footer{
     width: 100%;
     height: 348px;
