@@ -5,23 +5,19 @@ body{
 }
 header{
     width: 100%;
-    height: 800px;
+    height: 500px;
      background: rgba(229, 84, 115, 0.10);
-     
-
 }
 .header-container{
     display: flex;
-  margin: 0 50px 0 50px;
+
    
 }
 .header-column1{
-       padding: 100px 0 100px 50px;
+       padding: 150px 150px 100px 150px;
 }
 .header-column2{
-
- 
- 
+    margin-bottom: 0;
 }
 .header-title{
     color: #272727;
@@ -40,9 +36,11 @@ line-height: normal;
  border-radius: 8px;
 background: #E55473;
 }
-main {
-    width: 1140px;
+
+.feature{
+    max-width: 1140px;
     margin: 0 auto;
+    margin-bottom: 100px;
 }
 .feature-header{
     color: #272727;
@@ -62,6 +60,7 @@ font-weight: 400;
 .feature-items{
     display: flex;
     text-align: center;
+    gap: 70px;
 }
 .item-img1{
     margin-right: 24px;
@@ -85,7 +84,7 @@ padding: 70px 47px 20px 47px;
     background: rgba(71, 125, 17, 0.15); 
     width: 300px;
 height: 400px;
-padding: 40px 20px 0 20px;
+padding:  70px 47px 20px 47px;
 
 }
 .item-title{
@@ -95,7 +94,8 @@ font-weight: 700;
 text-decoration-line: underline;
 }
 .service{
-    margin-top: 100px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .service-container{
     height: 220px;
@@ -130,7 +130,7 @@ font-weight: 600;
 .offer {
     display: flex;
     width: 100%;
-    height: 520px;
+    height: 420px;
     margin-top: 100px;
     border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
@@ -140,21 +140,25 @@ background: rgba(229, 84, 115, 0.05);
     display: flex;
     width: 100%;
     text-align: center;
-    justify-content: space-between;
+    
   }
   
   .offer-column {
     flex: 1;
     margin-top: 45px;
-    padding: 40px 15px 25px 20px;
+    padding: 100px 250px 25px 250px;
   }
-  
+  .offer-image{
+   width: 200px;
+   padding: 100px 250px 200px 0;
+  }
   
   
   img {
     max-width: 100%;
     height: auto;
   }
+  
   .insta-title{
     margin-top: 100px;
     color: #272727;
@@ -169,6 +173,8 @@ font-size: 18px;
 font-weight: 400;
 }
 .insta-container{
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
    }
 .insta-item{
@@ -176,12 +182,15 @@ font-weight: 400;
 }
 .deal{
    background-image: url('../Flower%20Asset/Rectangle%209.png');
+   max-width: 1140px;
+   margin: 0 auto;
    height: 300px;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    margin-top: 100px;
    text-align: center;
+   margin-bottom: 100px;
 }
 .deal-container{
     padding: 20px 20px;
@@ -201,4 +210,34 @@ border: 0;
 background: #FFF;
 }
   
+footer{
+    width: 100%;
+    height: 348px;
+    background: #111010;
+}
+.footer-container{
+    padding: 50px 200px 50px 200px;
+}
+.footer-title{
+    color: #E55473;
+font-size: 38px;
+font-weight: 800;
+text-align: center;
 
+}
+.white{
+    color: white;
+}
+.footer-des{
+    color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 13px;
+font-weight: 400;
+
+}
+.footer-since{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 10px;
+font-weight: 400;
+}
