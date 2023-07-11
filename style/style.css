@@ -155,5 +155,24 @@ background: rgba(229, 84, 115, 0.05);
     max-width: 100%;
     height: auto;
   }
+  .insta-title{
+    margin-top: 100px;
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.insta-des{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.insta-container{
+    display: flex;
+   }
+.insta-item{
+      margin-right: 15px;
+   }
   
 
